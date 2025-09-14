@@ -6,7 +6,7 @@ function init(){
 btn.addEventListener('click', () => {
     if (getComputedStyle(moreText).display === 'none') {
         moreText.style.display = "block";
-        btn.textContent = " noo";
+        btn.textContent = " haide";
 
     } else {
         moreText.style.display="none";
@@ -15,3 +15,11 @@ btn.addEventListener('click', () => {
 })
 }
 document.addEventListener('DOMContentLoaded', init)
+/*
+https://www.w3schools.com/jsref/jsref_getcomputedstyle.asp
+https://stackoverflow.com/questions/8454079/toggle-displaynone-style-with-javascript
+https://cssgradient.io/
+https://youtu.be/MzrxVSuLygs?si=9hdJVZrH0UX162vD 
+friends/university friends
+there are several other reference but ithink lost them but these are the most important ones
+*/
